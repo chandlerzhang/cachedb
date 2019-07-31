@@ -1,4 +1,5 @@
 # cachedb
+
 A Java based All-In-Cache DB, Read-Cache, Write-DB-First, Single node with multi CPUs, NOT support Cluster
 
 基于 java 的全量缓存数据库，读缓存，写DB，单点部署，可主备部署，不支持集群。
@@ -13,7 +14,7 @@ A Java based All-In-Cache DB, Read-Cache, Write-DB-First, Single node with multi
 
 因此有了这个方案。
 
-我们不追新，我们的目标是易用且够用。
+我们不追新，我们的目标是解决查询瓶颈，易用且够用。
 
 ## 架构图
 
@@ -24,6 +25,7 @@ A Java based All-In-Cache DB, Read-Cache, Write-DB-First, Single node with multi
 - 缓存支持 groovy 脚本查询
 - 对数据库的表的写操作独占， 因为写完后更新缓存，缓存与数据库完全一致
 - 通过批量查询支持事务
+- 每个表有一个更新时间戳的索引，用于同步数据到缓存
 
 ## 问题
 

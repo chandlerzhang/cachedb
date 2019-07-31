@@ -13,19 +13,19 @@ public class MetaUnit {
     /**
      * 以下类型之一 string, long, double, boolean, date
      */
-    private String type;
+    private String type = "string";
     /**
      * 小数位，对应double类型
      */
-    private Integer scale;
+    private Integer scale = 0;
     /**
      * 日期格式，对应date类型, 使用java日期格式
      */
-    private String format;
+    private String format = "";
     /**
      * null 序列化字符串
      */
-    private String nullString;
+    private String nullString = "";
 
     /**
      * 序列化成字符串

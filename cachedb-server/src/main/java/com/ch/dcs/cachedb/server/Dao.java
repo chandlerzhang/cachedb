@@ -21,7 +21,7 @@ public class Dao {
         return null;
     }
 
-    public int[] queryBatchBySql(FormSql forms) {
+    public int[] queryBatchBySql(FormSql[] forms) {
         return null;
     }
 
