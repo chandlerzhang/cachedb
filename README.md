@@ -21,8 +21,8 @@ A Java based All-In-Cache DB, Read-Cache, Write-DB-First, Single node with multi
 
 ## 方案对比
 
-|特性|mysql+ehcache+groovy|redis+lua|mongodb|mysql|
-|---|---|---|---|
+|特性|mysql,ehcache,groovy|redis,lua|mongodb|mysql|
+|---|---|---|---|---|
 |单点事务特性|好|无|差|好|
 |持久化|好|差|好|好|
 |快速复杂查询|好|好|中|差|
