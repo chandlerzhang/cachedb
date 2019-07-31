@@ -1,0 +1,23 @@
+@startuml
+!include skin.iuml
+title 架构图
+
+
+node client {
+    component common_dao_client
+    component groovy_script
+}
+
+node server {
+    database mysql
+    component ehcache
+    component groovy_engine
+    component common_dao
+    ehcache - common_dao
+    common_dao - mysql
+    groovy_engine - ehcache
+}
+
+server - client: grpc
+
+@enduml

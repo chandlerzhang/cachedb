@@ -1,0 +1,120 @@
+@startuml
+skinparam note {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam activity {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam class {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam package {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam actor {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam usecase {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam object {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam component {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam state {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam artifact {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam node {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam database {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam storage {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam boundary {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam control {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam entity {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam interface {
+    arrowColor black
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam sequence {
+    ArrowColor black
+    BorderColor black
+    BackgroundColor white
+
+    LifeLineBorderColor black
+    LifeLineBackgroundColor white
+
+    ParticipantBorderColor black
+    ParticipantBackgroundColor white
+
+    ActorBorderColor black
+    ActorBackgroundColor white
+}
+' scale max 200 width
+
+@enduml
