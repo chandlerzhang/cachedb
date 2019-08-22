@@ -1,0 +1,28 @@
+@startuml
+!include skin.iuml
+title 架构图2
+
+node task
+
+node biz {
+    database mysql
+    component ehcache
+    component biz_entity
+    component biz_service
+    component biz_http
+    component common_dao
+    ehcache - common_dao
+    common_dao - mysql
+}
+
+task - biz_http: http
+
+node node_graphql_server
+
+node_graphql_server - biz_http: http
+
+node react_client
+
+node_graphql_server - react_client
+
+@enduml

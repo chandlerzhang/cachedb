@@ -1,0 +1,36 @@
+100000 records, offheap
+
+16:12:43.145 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - start cache
+16:12:43.649 [main] INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource - Allocating 1000.0MB in chunks
+16:12:49.372 [main] INFO org.ehcache.core.EhcacheManager - Cache 'aaa' created in EhcacheManager.
+16:12:49.517 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - Cache Info:
+        OffHeap Occupied:  0
+        OffHeap Allocated: 524288
+16:18:56.137 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - end cache, 100000 records, passed 372987 mills
+16:18:56.137 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - Cache Info:
+        OffHeap Occupied:  118744232
+        OffHeap Allocated: 138412032
+16:18:57.764 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - filter like first name 181
+16:19:02.640 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - sort passed 6503 mills
+
+16:39:01.536 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - start cache
+16:39:01.895 [main] INFO org.ehcache.core.EhcacheManager - Cache 'aaa' created in EhcacheManager.
+16:39:01.937 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - Cache Info:
+        OnHeap Occupied:  -1
+        OnHeap Allocated: -1
+        OffHeap Occupied:  null
+        OffHeap Allocated: null
+16:44:26.039 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - end cache, 100000 records, passed 324499 mills
+16:44:26.039 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - Cache Info:
+        OnHeap Occupied:  -1
+        OnHeap Allocated: -1
+        OffHeap Occupied:  null
+        OffHeap Allocated: null
+16:44:26.071 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - filter like first name 199 record
+16:44:26.329 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - sort passed 257 mills
+
+15:07:00.644 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - start cache
+15:12:16.793 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - end cache, 100000 records, passed 316146 mills
+15:12:16.793 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - filter 214 records passed 0 mills
+15:12:16.828 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - found 214 records
+15:12:16.828 [main] INFO com.ch.dcs.http.scan2.InitConfiguration - filter simple, passed 21 mills

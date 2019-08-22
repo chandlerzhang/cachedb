@@ -18,7 +18,12 @@ A Java based All-In-Cache DB, Read-Cache, Write-DB-First, Single node with multi
 
 ## 架构图
 
+基于rpc的cs结构
+
 ![image](/out/doc/puml/architect/架构图.png)
+
+基于http的http结构
+![image](/out/doc/puml/architect2/架构图2.png)
 
 ## 特性
 
